@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <link rel= "stylesheet" href="accountregistration.css">
+            <script src="https://kit.fontawesome.com/5503d09702.js" crossorigin="anonymous"></script>
+        </head>
+  
+<title>Account Registration</title>
+
+<body>
+<h1>Account Registration</h1>
+
+<br>
+<br>
+<form>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="lastname">
+    <br>
+    <br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname">
+    <br>
+    <br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <br>
+
+    <label for="age">Age</label>
+
+
+<select name="age" id="age">
+    <option value="1">15-20</option>
+    <option value="2">21-25</option>
+    <option value="3">26-31</option>
+    <option value="4">31+</option>
+  </select>
+
+    <br>
+    <br>
+
+    <label for="experience">How many years have you been driving?:</label>
+    <input type="number" min="1" max="100">
+
+    <br>
+    <br>
+
+    <label for="carrier">Insurance Carrier:</label>
+    <select name="carrier" id="carrier">
+        <option value="Allstate">Allstate</option>
+        <option value="Statefarm">State Farm</option>
+        <option value="Progressive">Progressive</option>
+        <option value="Geico">Geico</option>
+        <option value="Travelers">Travelers</option>
+        <option value="Other">Other</option>
+      </select>
+    <br>
+    <br>
+
+    <label for="accidents">How many accidents have you had in the past 2 years?</label>
+    <input type="number" min="1" max="100">
+    <br>
+    <br>
+
+    <label for="underagedrivers">Any drivers in your household under the age of 18?</label>
+
+    <input type="radio" id="yes" name="yes" value="yes">
+<label for="yes">Yes</label><br>
+<input type="radio" id="no" name="no" value="no">
+<label for="no">No</label><br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+  </form>
+
+  <button>Submit</button>
+
+
+</body>
+
+</html>
